@@ -1,0 +1,173 @@
+body{
+    /* Font/text values */
+--unnamed-font-family-source-han-sans-tw: Source Han Sans TW;
+--unnamed-font-style-normal: normal;
+--unnamed-font-weight-normal: normal;
+--unnamed-font-size-14: 14px;
+--unnamed-character-spacing-0: 0px;
+--unnamed-line-spacing-21: 21px;
+/* Character Styles */
+font-family: var(--unnamed-font-family-source-han-sans-tw);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-14);
+line-height: var(--unnamed-line-spacing-21);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-212529);
+}
+.header{
+    background: #AA0601;
+    display: flex;
+    justify-content: space-between;
+}
+.hitem{
+    display: flex;
+}
+.header .item{
+    color: white;
+    margin-left:32px;
+    margin-right:32px;
+}
+.header h3{
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+.header img{
+    width: 80px;
+    height: 49px;
+}
+.content img{
+    max-width: 100%;
+    width: auto;
+}
+.introduction{
+    background:#FBF2F2;
+
+}
+.introduction h1{
+    font-size: 48px;
+    color: #650300;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 80px
+}
+.Initem{
+    display: flex;
+}
+.Initem .item{
+text-align: center;
+}
+.Initem img{
+    width: 84px;
+height: 84px;
+}
+.Initem h4{
+    width: 306px;
+    height: 36px;
+    color: #650300;
+    text-align: center;
+}
+.Initem p{
+    width: 306px;
+height: 48px;
+text-align: center;
+}
+.topic{
+    font-size: 48px;
+    color: #650300;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 80px
+}
+.imgcontent{
+    display: flex;
+}
+.imgcontent .item{
+    color: #AA0601;
+    text-align: center;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.imgcontent p{
+    font-size: 48px;
+    margin-top: 8px;
+}
+.imgcontent img{
+    width: 416px;
+    height: 416px;
+}
+.ads{
+    max-width: 1920px;
+    height: 608px;
+
+background-size: contain;
+/* UI Properties */
+background: transparent url('week3-4/index-bg-sm.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.ads h1{
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 80px;
+
+}
+.ads .table{
+    margin-top: 48px;
+    display: flex;
+    width: 1960px;
+    background-color: #fff;
+
+}
+.table .item{
+    color: #AA0601;
+    text-align: center;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.table img{
+    width: 648px;
+    height: 240px;
+}
+.table p{
+    font-size: 48px;
+    margin-top: 8px;
+    color: #AA0601;
+    text-align: center;
+    padding-top: 8px;
+}
+.customer{
+    display: flex;
+    justify-content: center;
+}
+
+.customer .item{
+    text-align: center;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.customer p{
+    text-align: left;
+    font-size: 16px;
+    color: black;
+}
+.customer .name{
+    margin-top: 8px;
+}
+.customer .content{
+    margin-top: 16px;
+    margin-bottom: 72px;
+}
+.customer img{
+    width: 416px;
+    height: 416px;
+    margin-bottom: 8px;
+}
+.customer .date{
+    text-align: left;
+    font-size: 14px;
+    margin-top: 8px;
+    color:#707070;
+}
